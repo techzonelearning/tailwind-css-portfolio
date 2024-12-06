@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend / UI Designer Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="text-white">
+    <div class="fixed top-0 left-0 -z-20 h-full w-full bg-slate-950">
+      <div
+        class="absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"
+      ></div>
+      <div
+        class="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"
+      ></div>
+    </div>
+    <header class="flex">
+      <!-- left side  -->
+      <div
+        class="hidden fixed left-0 top-0 w-1/4 h-screen border-r border-[rgba(255,255,255,0.2)] md:flex flex-col items-center px-5 pt-14"
+      >
+        <div id="profile" class="flex flex-col items-center">
+          <!-- show profile data  -->
+        </div>
+        <div class="flex flex-col text-center text-white gap-4 mt-8">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skill">Skill</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div id="menu-bar" class="md:hidden z-20">
+        <i
+          id="menu-bar-icon"
+          class="fa-solid fa-bars fixed top-5 left-5 text-3xl"
+        ></i>
+      </div>
+      <div class="md:w-9/12 min-h-screen overflow-y-auto md:ml-[25%]">
+        <!-- hero section  -->
+        <section
+          id="home"
+          class="h-screen flex flex-col justify-center items-center px-12 md:px-0"
+        >
+          <h1
+            id="typewriter"
+            class="text-3xl sm:text-5xl md:text-6xl font-black bg-gradient-to-r from-[#ffffff] to-[#ecf0f1] bg-clip-text text-transparent"
+          ></h1>
+          <div id="show-info"></div>
+          <div class="flex md:gap-6 gap-3">
+            <a
+              href="mailto:abdulrehmanarain1018@gmail.com"
+              target="_blank"
+              class="bg-white md:text-xl text-base md:px-5 md:py-2 px-2 py-1 rounded-md text-black font-medium duration-500 transition-all"
+            >
+              Hire Me <i class="fa-solid fa-paper-plane ml-2"></i>
+            </a>
+            <a
+              download="./img/abdullah.pdf"
+              href="./img/abdullah.pdf"
+              class="flex items-center bg-white text-black md:text-xl text-base md:px-5 px-2 md:py-2 py-1 rounded-md font-medium duration-500 transition-all"
+            >
+              Download <i class="fa-solid fa-circle-down ml-3"></i>
+            </a>
+          </div>
+        </section>
+
+        <!-- about us  -->
+        <section
+          class="min-h-screen flex flex-col justify-center md:px-32 px-10"
+          id="about"
+        >
+          <p class="text-base font-bold">About Us</p>
+          <h1 class="text-4xl font-bold my-4">Who Am I?</h1>
+          <p class="text-lg">
+            <b>Hi I'm Jackson Ford</b> On her way she met a copy. The copy
+            warned the Little Blind Text, that where it came from it would have
+            been rewritten a thousand times and everything that was left from
+            its origin would be the word "and" and the Little Blind Text should
+            turn around and return to its own, safe country.
+          </p>
+          <p class="text-lg my-3">
+            Even the all-powerful Pointing has no control about the blind texts
+            it is an almost unorthographic life One day however a small line of
+            blind text by the name of Lorem Ipsum decided to leave for the far
+            World of Grammar.
+          </p>
+
+          <div id="about-card" class="flex flex-wrap gap-4 mt-6 justify-center">
+            <!-- card  -->
+          </div>
+        </section>
+
+        <!-- skill  -->
+
+        <section
+          class="min-h-screen flex flex-col justify-center md:px-32 sm:px-20 px-10 md:my-0 my-14"
+          id="skill"
+        >
+          <h1 class="text-4xl font-bold">My Skills</h1>
+          <p class="text-base my-12">
+            The Big Oxmox advised her not to do so, because there were thousands
+            of bad Commas, wild Question Marks and devious Semikoli, but the
+            Little Blind Text didn’t listen. She packed her seven versalia, put
+            her initial into the belt and made herself on the way.
+          </p>
+          <div
+            id="skill-card"
+            class="flex flex-wrap gap-4 w-full justify-between"
+          >
+            <!-- skill bars  -->
+          </div>
+        </section>
+
+        <!-- Experience  -->
+
+        <section
+          class="min-h-screen flex flex-col justify-center md:px-20 px-12"
+        >
+          <p class="text-base my-3">Experience</p>
+          <h1 class="text-4xl font-bold">Work Experience</h1>
+
+          <section class="">
+            <div class="container max-w-5xl px-4 py-12 mx-auto">
+              <div class="grid gap-4 mx-4 sm:grid-cols-12">
+                <div class="relative col-span-12 px-4 space-y-6 sm:col-span-9">
+                  <div
+                    class="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-gray-300"
+                    id="experience"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- my work  -->
+
+        <section class="py-6 my-20" id="projects">
+          <div class="flex flex-col justify-center px-32">
+            <p class="text-base">My Work</p>
+            <h1 class="text-4xl font-bold">Recent Work</h1>
+          </div>
+          <div
+            class="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4"
+          >
+            <img
+              src="https://i.pinimg.com/736x/33/c3/65/33c365643ccbd2604445e66377847a8f.jpg"
+              alt=""
+              class="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 border md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square"
+            />
+            <a href="https://rehmanofficial.pages.dev/" target="_blank">
+              <img
+                alt=""
+                class="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 border aspect-square"
+                src="https://i.pinimg.com/736x/8e/67/9c/8e679c65b8a27475ee8b94420ac137c3.jpg"
+              />
+            </a>
+            <img
+              alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 border aspect-square"
+              src="https://i.pinimg.com/736x/2b/c1/65/2bc16532d1dfa895a98a12245863bccc.jpg"
+            />
+            <img
+              alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 border aspect-square"
+              src="https://i.pinimg.com/736x/78/15/89/78158911a2494e894853b42305857b19.jpg"
+            />
+            <img
+              alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 border aspect-square"
+              src="https://i.pinimg.com/736x/6c/76/bf/6c76bf22087ae51383ec092db418fb93.jpg"
+            />
+            <img
+              alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 border aspect-square"
+              src="https://i.pinimg.com/736x/cc/af/70/ccaf70defd7e1936a529a5e2eb73f7f2.jpg"
+            />
+            <img
+              alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 border aspect-square"
+              src="https://i.pinimg.com/736x/ff/8f/13/ff8f1338068a34f25df3d6969146603b.jpg"
+            />
+            <img
+              alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 border aspect-square"
+              src="https://i.pinimg.com/736x/ff/2f/92/ff2f92de276f305a8cc5462803654dab.jpg"
+            />
+            <img
+              alt=""
+              class="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 border aspect-square"
+              src="https://i.pinimg.com/736x/b4/8e/11/b48e11f89752c3d666b8063165378ba3.jpg"
+            />
+            <img
+              src="https://i.pinimg.com/736x/e7/91/12/e79112f4703e04f48a8c50f8b33b45c6.jpg"
+              alt=""
+              class="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 border md:col-start-1 md:row-start-3 dark:bg-gray-500 aspect-square"
+            />
+          </div>
+        </section>
+
+        <!-- contact  -->
+
+        <section class="body-font relative" id="contact">
+          <div class="flex flex-col justify-center px-32">
+            <p class="text-base">Contact</p>
+            <h1 class="text-4xl font-bold">Contact Me</h1>
+          </div>
+          <div
+            class="text-gray-600 container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap"
+          >
+            <div
+              class="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
+            >
+              <iframe
+                width="100%"
+                height="100%"
+                class="absolute inset-0"
+                frameborder="0"
+                title="map"
+                marginheight="0"
+                marginwidth="0"
+                scrolling="no"
+                src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+                style="filter: grayscale(1) contrast(1.2) opacity(0.4)"
+              ></iframe>
+              <div
+                class="bg-white relative flex flex-wrap py-6 rounded shadow-md"
+              >
+                <div class="lg:w-1/2 px-6">
+                  <h2
+                    class="title-font font-semibold text-gray-900 tracking-widest text-xs"
+                  >
+                    ADDRESS
+                  </h2>
+                  <p class="mt-1">
+                    Photo booth tattooed prism, portland taiyaki hoodie neutra
+                    typewriter
+                  </p>
+                </div>
+                <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                  <h2
+                    class="title-font font-semibold text-gray-900 tracking-widest text-xs"
+                  >
+                    EMAIL
+                  </h2>
+                  <a class="text-indigo-500 leading-relaxed"
+                    >example@email.com</a
+                  >
+                  <h2
+                    class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4"
+                  >
+                    PHONE
+                  </h2>
+                  <p class="leading-relaxed">123-456-7890</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+            >
+              <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
+                Feedback
+              </h2>
+              <p class="leading-relaxed mb-5 text-gray-600">
+                Post-ironic portland shabby chic echo park, banjo fashion axe
+              </p>
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="543ffcb8-6297-446b-ade2-f25ade3c80ed"
+                />
+
+                <div class="relative mb-4">
+                  <label for="name" class="leading-7 text-sm text-gray-600"
+                    >Name</label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                </div>
+                <div class="relative mb-4">
+                  <label for="email" class="leading-7 text-sm text-gray-600"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                </div>
+                <div class="relative mb-4">
+                  <label for="message" class="leading-7 text-sm text-gray-600"
+                    >Message</label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  ></textarea>
+                </div>
+                <button
+                  class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                >
+                  Button
+                </button>
+              </form>
+              <p class="text-xs text-gray-500 mt-3">
+                Chicharrones blog helvetica normcore iceland tousled brook viral
+                artisan.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <div
+      class="bg-black duration-300 fixed right-full top-0 w-full h-screen border-r border-[rgba(255,255,255,0.2)] md:hidden flex flex-col items-center px-5 pt-14"
+      id="menu"
+    >
+      <div id="profile" class="flex flex-col items-center">
+        <!-- show profile data  -->
+      </div>
+      <div class="flex flex-col text-center text-white gap-4 mt-8">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
