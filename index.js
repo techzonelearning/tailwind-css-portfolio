@@ -9,8 +9,8 @@ async function fetchProfile() {
 fetchProfile().then((value) => {
   profile.innerHTML = `
                   <img src="${value.avatar_url}" class="rounded-full w-1/2 h-auto" alt="" />
-                  <h1 class="mt-4 font-bold text-2xl text-white">${value.name}</h1>
-                  <p class="text-md mt-2 text-gray-300 text-center">${value.bio}</p>
+                  <h1 class="mt-4 font-bold text-2xl font-['Dancing_Script'] text-white">${value.name}</h1>
+                  <p class="text-md mt-2 font-['Roboto] text-gray-300 text-center">${value.bio}</p>
           `;
 });
 
